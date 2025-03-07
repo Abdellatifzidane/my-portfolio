@@ -10,56 +10,44 @@ function Timeline() {
   return (
     <div id="history">
       <div className="items-container">
-        <h1>Career History</h1>
+        <h1>Études et formations</h1>
         <VerticalTimeline>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
             contentStyle={{ background: 'white', color: 'rgb(39, 40, 34)' }}
             contentArrowStyle={{ borderRight: '7px solid  white' }}
-            date="2022 - present"
+            date="2020 - 2023"
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
-            <h3 className="vertical-timeline-element-title">Technology Consultant</h3>
-            <h4 className="vertical-timeline-element-subtitle">Dallas, TX</h4>
+            <h3 className="vertical-timeline-element-title">Licence en informatique et Systèmes d'informations.</h3>
+            <h4 className="vertical-timeline-element-subtitle">Algérie, Béjaia</h4>
             <p>
-              Full-stack Web Development, GenAI/LLM, Project Management, Business Development
+            Au cours de laquelle j'ai étudié des modules en algèbre, statistiques, algorithmique et complexité des algorithmes, ainsi que des techniques de conception des systèmes d'information.
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date="2020 - 2022"
+            date="2023 - 2024"
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
-            <h3 className="vertical-timeline-element-title">Full Stack Engineer</h3>
-            <h4 className="vertical-timeline-element-subtitle">Laie, HI</h4>
+            <h3 className="vertical-timeline-element-title">Bachelor en Ingénierie de logiciel.</h3>
+            <h4 className="vertical-timeline-element-subtitle">France, Ivry-sur-Seine</h4>
             <p>
-              Frontend Development, Backend Development, User Experience, Team Leading
+            Développement Frontend, Développement Backend, Expérience Utilisateur, Gestion d'Équipe.
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date="2021 - 2021"
+            date="2024 - 2026"
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
-            <h3 className="vertical-timeline-element-title">Staff Engineer Intern</h3>
-            <h4 className="vertical-timeline-element-subtitle">Laie, HI</h4>
+            <h3 className="vertical-timeline-element-title">Master en Intelligence Artificielle et Big Data.</h3>
+            <h4 className="vertical-timeline-element-subtitle">France, Paris</h4>
             <p>
-              Full-stack Development, API Development, User Experience
-            </p>
-          </VerticalTimelineElement>
-          <VerticalTimelineElement
-            className="vertical-timeline-element--work"
-            date="2020 - 2020"
-            iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
-            icon={<FontAwesomeIcon icon={faBriefcase} />}
-          >
-            <h3 className="vertical-timeline-element-title">Data Analyst Intern</h3>
-            <h4 className="vertical-timeline-element-subtitle">Tokyo, Japan</h4>
-            <p>
-              Automation, Data Governance, Statistical Analysis
+            Machine Learning, Deep Learning et gestion de grandes données. J'ai appris à concevoir des solutions intelligentes pour résoudre des problèmes complexes et à utiliser les outils nécessaires pour exploiter les données massives et automatiser les processus décisionnels.
             </p>
           </VerticalTimelineElement>
         </VerticalTimeline>
